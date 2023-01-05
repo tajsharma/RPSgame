@@ -1,6 +1,6 @@
 function match(compChoice, userChoice){
     let winner = "Tie"
-    if(userChoice != 'rock' || userChoice!= 'paper' || userChoice != 'scissors'){
+    if(userChoice != 'rock' && userChoice!= 'paper' && userChoice != 'scissors'){
         userChoice = prompt("Please only choose from: Rock, Paper or Scissors ");
     }else{
         console.log('Valid choice')
