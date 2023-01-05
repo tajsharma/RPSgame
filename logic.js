@@ -1,10 +1,9 @@
 function match(compChoice, userChoice){
     let winner = "Tie"
-    if(userChoice != 'rock' && userChoice!= 'paper' && userChoice != 'scissors'){
+    while(userChoice != 'rock' && userChoice!= 'paper' && userChoice != 'scissors'){
         userChoice = prompt("Please only choose from: Rock, Paper or Scissors ");
-    }else{
-        console.log('Valid choice')
     }
+    console.log("finally man")
 }
 
 let listofOptions = ['Rock','Paper', 'Scissors'];
