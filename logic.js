@@ -34,5 +34,6 @@ let compChoice = computer().toLowerCase();
 var playerChoice = prompt("Rock, Paper or Scissors? What do u pick!: ");
 
 winner = match(compChoice,playerChoice.toLowerCase())
-console.log(winner);
+console.log(winner," wins!")
+console.log('User picked->',playerChoice,'Computer picked->',compChoice);
 
