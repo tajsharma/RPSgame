@@ -1,5 +1,5 @@
 function match(compChoice, userChoice){
-
+    return compChoice, userChoice
 }
 
 function computer(){
@@ -9,5 +9,8 @@ function computer(){
 }
 
 let compChoice = computer().toLowerCase()
-console.log(compChoice)
+
+let playerChoice = prompt("Rock, Paper or Scissors? What do u pick!: ")
+
+console.log(match(compChoice,playerChoice))
 
