@@ -8,5 +8,6 @@ function computer(){
     return listofOptions[random]
 }
 
-let name1 = computer()
-console.log(name1)
+let compChoice = computer().toLowerCase()
+console.log(compChoice)
+
