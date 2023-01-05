@@ -1,9 +1,26 @@
 function match(compChoice, userChoice){
-    let winner = "Tie"
+    let winner = "No one"
     while(userChoice != 'rock' && userChoice!= 'paper' && userChoice != 'scissors'){
         userChoice = prompt("Please only choose from: Rock, Paper or Scissors ");
     }
-    console.log("finally man")
+    
+    if(compChoice=='rock' && userChoice=='paper'){
+        winner = 'User';
+    }else if(compChoice=='rock' && userChoice=='scissors'){
+        winner = 'Computer';
+    }else if(compChoice=='paper' && userChoice=='scissors'){
+        winner = 'User';
+    }else if(compChoice=='paper' && userChoice=='rock'){
+        winner = 'Computer';
+    }else if(compChoice=='scissors' && userChoice=='paper'){
+        winner = 'Computer';
+    }else if(compChoice=='scissors' && userChoice=='rock'){
+        winner = 'User';
+    }else{
+        return winner 
+    }
+
+    return winner
 }
 
 let listofOptions = ['Rock','Paper', 'Scissors'];
@@ -16,6 +33,6 @@ function computer(){
 let compChoice = computer().toLowerCase();
 var playerChoice = prompt("Rock, Paper or Scissors? What do u pick!: ");
 
-
-console.log(match(compChoice,playerChoice.toLowerCase()));
+winner = match(compChoice,playerChoice.toLowerCase())
+console.log(winner);
 
