@@ -7,3 +7,6 @@ function computer(){
     let random = Math.random(2)
     return listofOptions[random]
 }
+
+let name = computer()
+console.log(name)
