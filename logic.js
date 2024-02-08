@@ -31,7 +31,7 @@ function computer(){
 };
 
 let compChoice = computer().toLowerCase();
-var playerChoice = prompt("Rock, Paper or Scissors? What do u pick!: ");
+//var playerChoice = prompt("Rock, Paper or Scissors? What do u pick!: ");
 
 winner = match(compChoice,playerChoice.toLowerCase())
 console.log(winner," wins!")
