@@ -1,5 +1,5 @@
 # RPSgame
-Basic game of Rock Paper Scissors with a easy-to-use UI.
+Basic game of Rock Paper Scissors with an easy-to-use UI.
 
 Play 10 games and see if you can beat the CPU!!
 
