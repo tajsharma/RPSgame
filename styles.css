@@ -18,4 +18,13 @@ html, body{
 
 .options{
     margin: 20px;
+    border-radius: 10px;
+}
+
+.results{
+    width: 350px;
+    height: 70vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
 }
