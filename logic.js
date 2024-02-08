@@ -21,11 +21,11 @@ function match(userChoice){
     }else if(compChoice=='scissors' && userChoice=='rock'){
         winner = 'User';
     }else{
-        console.log("Tie") 
+        winner = "No one"
     }
 
     console.log(winner," wins!")
-    console.log('User picked->',userChoice,'Computer picked->',compChoice);
+    console.log('User picked:',userChoice,'| Computer picked:',compChoice);
 }
 
 let listofOptions = ['Rock','Paper', 'Scissors'];
